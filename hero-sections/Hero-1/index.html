@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
+    <title>Hero Section</title>
+  </head>
+
+  <body>
+    <div class="container grid">
+      <nav class="nav">
+        <h1 class="nav__brand">EUPO</h1>
+
+        <ul class="nav__list hidden">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Collection</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <ul class="nav__more-links">
+          <li>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+                />
+              </svg>
+            </a>
+          </li>
+
+          <li id="toggle-nav">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="size-10"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75Zm7 10.5a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5a.75.75 0 0 1-.75-.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Elegance Redefined: Discover Our Timeless Furniture Pieces
+          </h1>
+          <!-- <p class="hero__description">Discover the benefits and support of the European Union</p>
+        <a href="#" class="hero__button">Discover more</a> -->
+        </div>
+        <form action="#" class="hero__form">
+          <div class="hero__input">
+            <label for="made-by">made by</label>
+
+            <select name="company" id="made-by">
+              <option value="volvo" selected>Wood</option>
+              <option value="saab">Rubber</option>
+              <option value="mercedes">Ork Wood</option>
+              <option value="audi">Iron</option>
+            </select>
+          </div>
+
+          <div class="hero__input">
+            <label for="select-type">select type</label>
+
+            <select name="type" id="select-type">
+              <option value="volvo">Sofa</option>
+              <option value="saab">Single</option>
+              <option value="mercedes">Emperor</option>
+              <option value="audi">Kings</option>
+            </select>
+          </div>
+
+          <div class="hero__input">
+            <label for="price">price</label>
+
+            <select name="price" id="price">
+              <option value="volvo">$2,383.09</option>
+              <option value="saab">$38,333.88</option>
+              <option value="mercedes">$88,888.8</option>
+              <option value="audi">$989.999.99</option>
+            </select>
+          </div>
+
+          <div class="hero__input">
+            <button type="submit">Search</button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
